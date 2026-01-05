@@ -15,5 +15,9 @@
     "interface"
   ],
   "author": "Chukwudi Ogbonnaya",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/signorchuksy/this-icon.git"
+  }
 }
