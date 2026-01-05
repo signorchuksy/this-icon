@@ -1,0 +1,19 @@
+{
+  "name": "this-icon",
+  "version": "0.1.0",
+  "description": "An ever expanding icon library, designed for software interfaces",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "icon",
+    "svg",
+    "icon-library",
+    "design-system",
+    "ui",
+    "interface"
+  ],
+  "author": "Chukwudi Ogbonnaya",
+  "license": "MIT"
+}
