@@ -4,7 +4,13 @@
   "description": "An ever expanding icon library, designed for software interfaces",
   "main": "dist",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean && npm run build:svg && npm run build:sprite && npm run build:js",
+    "build:svg": "mkdir -p dist/svg && cp -r icons/* dist/svg/",
+    "build:sprite": "echo 'Sprite sheet generation - to be implemented'",
+    "build:js": "node scripts/generate-icon-map.js",
+    "dev": "npm run build && echo 'Watching for changes... (to be implemented with nodemon)'",
+    "lint": "echo 'SVG validation - to be implemented'",
+    "clean": "rm -rf dist/"
   },
   "keywords": [
     "icon",
